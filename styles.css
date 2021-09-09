@@ -1,0 +1,48 @@
+﻿*  
+{
+    padding:0px;
+    margin: 0px;
+}
+
+
+.menu
+{
+    list-style: none;
+    text-align:center;
+}
+
+.menu li:hover
+{
+    background-color: #cc9999;
+}
+
+.menu li
+{
+    display:inline-block;
+    width: 150px;    
+    text-align:center;
+    padding: 3px 0 0 10px;
+    border-bottom: 3px solid #000000;           
+    background-color: #cccc99;
+}
+
+.menu li a
+{
+    text-decoration:none;
+    color: #000000;
+}
+
+body {
+    display: grid;
+    padding: 2rem;
+    grid-template-columns: 300px 1fr;
+    gap: 1rem;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    font: 500 100%/1.5 system-ui;
+  }
+  img {
+    max-width: 100%;
+    height: auto;
+  }
